@@ -6,6 +6,7 @@
     <title>留言板{% block title %}{% endblock %}</title>
 </head>
 <body>
+    Home!!!!!!!
     {% if user.is_authenticated %}
         歡迎 {{ user.username }} !!
         <form action="{% url 'logout' %}" method="post">
